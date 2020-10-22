@@ -3,9 +3,6 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body{
-    font-size: 16px;
-}
 h1{
     color: aqua;
     padding-bottom: 15px;
@@ -25,6 +22,7 @@ h4{
     padding-top: 15px;
     padding-bottom: 50px;
     width: 70vw;
+    height: 30vh;
     font-size: 0.8rem;
 }
 .subscription{
@@ -37,6 +35,7 @@ h4{
     .up{
     color: white;
     padding-left: 40px;
+    background-color: yellowgreen;border: none;
 }
 .signup{
     border-radius: 5px;
@@ -58,21 +57,28 @@ ul {list-style-type:none;}
 .greylines{
     color: grey;
 }
-@media screen and(min-width:786px){
+@media screen and (min-width:786px){
     .community{
         padding: 30px;
         width:100vh ;
         height:40vh;
-        font-size: 40px; 
+        font-size:20px; 
     }
     .whyus{
-        width: 50vh;
-        height: 30vh;
+        width: 50%;
+        height: 60vh;
         float: left;
+        font-size: 20px;
     }
     .subscription{
-        width: 50vh;
-        height: 30vh;
+        width: 50%;
+        height: 60vh;
         float: left;
+        font-size: 20px;
     }
+    .signup{
+        width: 200px;
+        padding-left: 25px;
+    }
+  
 }
